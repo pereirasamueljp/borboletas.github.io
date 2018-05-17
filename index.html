@@ -26,20 +26,80 @@
                 
             </div>
             <ul>
-                <li id="first"><a href="#home"><img class="button" src="button.png"/></a></li>
-                <li id="second"><a href="#home"><img class="button" src="button.png"/></a></li>
-                <li id="third"><a href="#home"><img class="button" src="button.png"/></a></li>
-                <li id="fourth"><a href="#home"><img class="button" src="button.png"/></a></li>
-                <li id="fifth"><a href="#home"><img class="button" src="button.png"/></a></li>
-                <li id="sixth"><a href="#home"><img class="button" src="button.png"/></a></li>
+                <li id="first">
+                    <svg id="svg" height="100" width="100">
+                    <a id="a1" href="#home1"><circle id="c1" cx="10" cy="10" r="8.5" stroke="white" stroke-width="2" fill="transparent" /></a>
+                    </svg>
+                    
+                </li>
+                <li id="second">
+                    <svg id="svg" height="100" width="100">
+                    <a href="#home2"><circle cx="10" cy="10" r="8.5" stroke="white" stroke-width="2" fill="transparent" /></a>
+                    </svg>
+                </li>
+                <li id="third">
+                    <svg id="svg" height="100" width="100">
+                    <a href="#home3"><circle cx="10" cy="10" r="8.5" stroke="white" stroke-width="2" fill="transparent" /></a>
+                    </svg>
+                </li>
+                <li id="fouth">
+                    <svg id="svg" height="100" width="100">
+                    <a href="#home4"><circle cx="10" cy="10" r="8.5" stroke="white" stroke-width="2" fill="transparent" /></a>
+                    </svg>
+                </li>
+                <li id="fivth">
+                    <svg id="svg" height="100" width="100">
+                    <a href="#home5"><circle cx="10" cy="10" r="8.5" stroke="white" stroke-width="2" fill="transparent" /></a>
+                    </svg>
+                </li>
+                <li id="sixth">
+                    <svg id="svg" height="100" width="100">
+                    <a href="#home6"><circle cx="10" cy="10" r="8.5" stroke="white" stroke-width="2" fill="transparent" /></a>
+                    </svg>
+                </li>
             </ul>
         </nav>
 
     </head>
 
     <body>
-        <p>
-        </p>
+       <div id="introduct">
+        <div class="introduct" id="one">
+        one
+        </div>
+        <div class="introduct" id="two"> 
+            two
+        </div>
+        <div class="introduct" id="three">
+            three
+        </div>
+        <div class="introduct" id="four">
+            four
+        </div>
+
+            introduct
+
+       </div>
+
+       <script>
+
+
+            for(var i = 0; i < document.getElementsByTagName("circle").length; i++)
+            {
+                document.getElementsByTagName("circle")[i].onclick = function () {
+                
+                    for(var i = 0; i < document.getElementsByTagName("circle").length; i++)
+                    {
+                        document.getElementsByTagName("circle")[i].setAttribute("fill","rgba(245, 245, 245,0)");
+                    }
+                    this.setAttribute("fill","rgb(245, 245, 245)");
+                                     
+                    return false;
+                }         
+            }
+            
+    </script>
+
     </body>
 
 </html>
