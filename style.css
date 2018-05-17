@@ -44,7 +44,7 @@ body{
 }
 #logo{
     margin-top: -90px;
-    margin-left: 80px;
+    margin-left: 200px;
     width: 150px;
     height: 105px;
 }
@@ -54,7 +54,7 @@ body{
     width: 102%;
     height: 300px;
     margin-left: -8px;
-    background-color: brown;
+    background-color: rgb(153, 0, 54);
 }
 
 
@@ -63,7 +63,7 @@ body{
     height: 15.5px;
 }
 #slideshow ul{
-    margin-top: 13%;
+    margin-top: 150px;
     margin-left: 40%;
     overflow: hidden;
     display: block;
@@ -72,19 +72,15 @@ body{
 }
 #slideshow li{
     display: inline;
+    
 }
-
-#slideshow li{
-    background-image: url("button.png");
-}
-
 
 #boxinformation{
     position: relative;
-    top: 45px;
-    left: -140px;
-    width: 280px;
-    height: 75px;
+    top: 60px;
+    left: -180px;
+    width: 350px;
+    height: 100px;
     margin: 20px auto;
     padding-top: 4px;
     padding-left: 13px;
@@ -97,13 +93,50 @@ body{
     margin-top: 0px;
     margin-bottom: -10px;
     color: rgb(245, 245, 245);
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bold;
     font-family: Trebuchet MS, sans-serif; 
     
 }
 #boxcontent{
     color: rgb(245, 245, 245);
-    font-size: 13px;
+    font-size: 15px;
     font-family: Trebuchet MS, sans-serif; 
+}
+
+#introduct{
+    background-color: rgb(153, 0, 54);
+    width: 900px;
+    height: 300px;
+    border: 6px solid rgb(153, 0, 54);
+    margin-top: 100px;
+    margin-left: 170px;
+}
+.introduct{
+    background-color: rgb(245, 245, 245);
+    width: 100px;
+    height: 150px;
+    border: 10px solid transparent;
+    display: inline-block;
+    padding: 50px;
+
+}
+#one{
+    
+}
+#svg{
+    width: 20px;
+    height: 20px;
+    
+}
+#svg circle{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: blue;
+}
+#svg circle:hover{
+    cursor:pointer;
+    transition: 0.5s ease-in-out;
+    fill: rgba(0, 0, 0, 0.26);
 }
