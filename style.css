@@ -72,7 +72,8 @@ html, body{
     top: 38%;
 }
 #after{
-    margin-left: 90%;
+    float: right;
+    margin-left: 80%;
 
 }
 #before{
@@ -191,12 +192,22 @@ html, body{
 }
 
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 500px){
+    #slideshow ul{
+        margin-top: 2%;
+        margin-left: 20%;
+
+    }
     .introduct{
         display: block;
-        max-width: 80%;
-        width: 80%;
+        max-width: 70%;
+        width: 60%;
     }
-
+    .selector{
+        top: 23%;
+    }
+    #after{
+        margin-left: 82%;
+    }
 
 }
