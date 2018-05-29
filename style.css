@@ -173,6 +173,9 @@ html, body{
     #menu ul{
         display: none;
     }
+    .selector{
+        display: none;
+    }
     #logo{
         width: 113px;
         height: 75px;        
