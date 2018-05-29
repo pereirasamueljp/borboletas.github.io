@@ -46,7 +46,6 @@ html, body{
     background-size: 100% 100%;
     background-repeat: no-repeat;
     overflow: hidden;
-    background-color: blue;
  
 }
 #slideshow ul{
@@ -60,7 +59,6 @@ html, body{
 }
 .selector{
     background-color: rgba(0, 0, 0, 0.3);
-    color: blue;
     fill: white;
     display: block;
     margin-top: -35px;
