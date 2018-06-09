@@ -50,6 +50,7 @@ html, body{
 }
 #slideshow ul{
     margin-top: 7%;
+    margin-bottom: 0%;
     margin-left: -12%;
     text-align: center;
 }
